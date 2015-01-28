@@ -1,0 +1,2 @@
+Se sube archivo para comprobar sincronizacion con el repositorio.
+Cuando hagan checkout deberian de tener este archivo.

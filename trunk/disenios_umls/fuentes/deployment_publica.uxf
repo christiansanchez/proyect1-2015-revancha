@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>0</x>
+      <y>140</y>
+      <w>220</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>
+Servidor
+Central
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>280</x>
+      <y>0</y>
+      <w>130</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>
+Base de 
+Datos</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>450</x>
+      <y>480</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Cliente
+Barco</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>140</x>
+      <y>480</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Cliente
+Piratas</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>280</x>
+      <y>260</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+Servidor
+Web</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>290</y>
+      <w>90</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;http&gt;&gt;
+&lt;&lt;internet&gt;&gt; 
+
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;190.0;10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>290</y>
+      <w>150</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;http&gt;&gt;
+&lt;&lt;internet&gt;&gt; 
+
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>70.0;190.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>150</y>
+      <w>190</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;http&gt;&gt;
+&lt;&lt;internet&gt;&gt; 
+
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>110.0;110.0;110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>30</y>
+      <w>130</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;tcp&gt;&gt;
+&lt;&lt;LAN&gt;&gt;
+m1=1
+m2=  1</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Note</type>
+    <coordinates>
+      <x>310</x>
+      <y>80</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Datos
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.SimpleComponent</type>
+    <coordinates>
+      <x>30</x>
+      <y>210</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+ 
+     Logica</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.SimpleComponent</type>
+    <coordinates>
+      <x>30</x>
+      <y>290</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+ 
+Persistencia</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.SimpleComponent</type>
+    <coordinates>
+      <x>320</x>
+      <y>350</y>
+      <w>110</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+ 
+Grafica</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

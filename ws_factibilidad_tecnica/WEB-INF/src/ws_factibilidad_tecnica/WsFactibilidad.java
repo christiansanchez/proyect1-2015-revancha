@@ -6,25 +6,24 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.TreeMap;
-
 public class WsFactibilidad {
 	
-		public void setCoordenadas(String posX, String posY){
-			try{
+		public boolean setCoordenadas(String posX, String posY){
+				try{
 				/* 1. cargo dinamicamente el driver de MySQL */
 				String driver = "com.mysql.jdbc.Driver";
 				Class.forName(driver);
-
+	
 				/* 2. una vez cargado el driver, me conecto con la base de datos */
 				String url = "jdbc:mysql://localhost:3306/factibilidad2015";
 				Connection con = DriverManager.getConnection(url, "root", "admin");
-
+	
 				/* 3. creo un PreparedStatement para insertar una persona en base de datos */
 				String insert = "INSERT INTO coordenadas VALUES (?, ?)";
 				PreparedStatement pstmt = con.prepareStatement(insert);
 				pstmt.setString(1, posX);
 				pstmt.setString(1, posY);
-
+	
 				/* 4. ejecuto la sentencia de insercion y cierro el PreparedStatement */
 				pstmt.executeUpdate();
 				pstmt.close();
@@ -34,7 +33,9 @@ public class WsFactibilidad {
 			}
 			catch(SQLException | ClassNotFoundException e){
 				e.printStackTrace();
+				return false;
 			}
+			return true;
 		}
 		
 		public TreeMap<String, String> getCoordenadas(){
@@ -68,4 +69,5 @@ public class WsFactibilidad {
 			coordenadas.put("posY", posY);
 			return coordenadas;
 		}
+		
 }

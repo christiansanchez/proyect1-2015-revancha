@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://ws_factibilidad_tecnica" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://ws_factibilidad_tecnica">
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://ws_factibilidad_tecnica">
+            <xs:element name="setCoordenadas">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="posX" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="posY" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="setCoordenadasResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getCoordenadasResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="setCoordenadasRequest">
+        <wsdl:part name="parameters" element="ns:setCoordenadas"/>
+    </wsdl:message>
+    <wsdl:message name="setCoordenadasResponse">
+        <wsdl:part name="parameters" element="ns:setCoordenadasResponse"/>
+    </wsdl:message>
+    <wsdl:message name="getCoordenadasRequest"/>
+    <wsdl:message name="getCoordenadasResponse">
+        <wsdl:part name="parameters" element="ns:getCoordenadasResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="WsFactibilidadPortType">
+        <wsdl:operation name="setCoordenadas">
+            <wsdl:input message="ns:setCoordenadasRequest" wsaw:Action="urn:setCoordenadas"/>
+            <wsdl:output message="ns:setCoordenadasResponse" wsaw:Action="urn:setCoordenadasResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCoordenadas">
+            <wsdl:input message="ns:getCoordenadasRequest" wsaw:Action="urn:getCoordenadas"/>
+            <wsdl:output message="ns:getCoordenadasResponse" wsaw:Action="urn:getCoordenadasResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="WsFactibilidadSoap11Binding" type="ns:WsFactibilidadPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="setCoordenadas">
+            <soap:operation soapAction="urn:setCoordenadas" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCoordenadas">
+            <soap:operation soapAction="urn:getCoordenadas" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="WsFactibilidadSoap12Binding" type="ns:WsFactibilidadPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="setCoordenadas">
+            <soap12:operation soapAction="urn:setCoordenadas" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCoordenadas">
+            <soap12:operation soapAction="urn:getCoordenadas" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="WsFactibilidadHttpBinding" type="ns:WsFactibilidadPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="setCoordenadas">
+            <http:operation location="WsFactibilidad/setCoordenadas"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="setCoordenadas"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="setCoordenadas"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCoordenadas">
+            <http:operation location="WsFactibilidad/getCoordenadas"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="getCoordenadas"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="getCoordenadas"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="WsFactibilidad">
+        <wsdl:port name="WsFactibilidadHttpSoap11Endpoint" binding="ns:WsFactibilidadSoap11Binding">
+            <soap:address location="http://192.168.1.45:8080/axis2/services/WsFactibilidad.WsFactibilidadHttpSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="WsFactibilidadHttpSoap12Endpoint" binding="ns:WsFactibilidadSoap12Binding">
+            <soap12:address location="http://192.168.1.45:8080/axis2/services/WsFactibilidad.WsFactibilidadHttpSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="WsFactibilidadHttpEndpoint" binding="ns:WsFactibilidadHttpBinding">
+            <http:address location="http://192.168.1.45:8080/axis2/services/WsFactibilidad.WsFactibilidadHttpEndpoint/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

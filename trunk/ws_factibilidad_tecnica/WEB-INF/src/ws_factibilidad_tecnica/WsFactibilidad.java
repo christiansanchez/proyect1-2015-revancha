@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.TreeMap;
+
 public class WsFactibilidad {
 	
 		public boolean setCoordenadas(String posX, String posY){
@@ -22,7 +22,7 @@ public class WsFactibilidad {
 				String insert = "INSERT INTO coordenadas VALUES (?, ?)";
 				PreparedStatement pstmt = con.prepareStatement(insert);
 				pstmt.setString(1, posX);
-				pstmt.setString(1, posY);
+				pstmt.setString(2, posY);
 	
 				/* 4. ejecuto la sentencia de insercion y cierro el PreparedStatement */
 				pstmt.executeUpdate();
@@ -38,8 +38,7 @@ public class WsFactibilidad {
 			return true;
 		}
 		
-		public TreeMap<String, String> getCoordenadas(){
-			TreeMap<String, String> coordenadas = new TreeMap<String, String>();
+		public String getCoordenadas(){
 			String posX = "";
 			String posY = "";
 			try
@@ -50,7 +49,7 @@ public class WsFactibilidad {
 				String url = "jdbc:mysql://localhost:3306/factibilidad2015";
 				Connection con = DriverManager.getConnection(url, "root", "admin");
 				
-				String query = "Select posicion_x, posicion_y from";
+				String query = "Select posicion_x, posicion_y from coordenadas;";
 				Statement stmt = con.createStatement();
 				ResultSet rs = stmt.executeQuery(query);
 				while (rs.next())
@@ -65,9 +64,13 @@ public class WsFactibilidad {
 			catch(SQLException | ClassNotFoundException e){
 				e.printStackTrace();
 			}
-			coordenadas.put("posX", posX);
-			coordenadas.put("posY", posY);
-			return coordenadas;
+			String resultado = posX + "," + posY;
+			return resultado;
 		}
 		
+//		public static void main(String[] args) {
+//			WsFactibilidad a = new WsFactibilidad();
+//			a.setCoordenadas("1", "10");
+//			TreeMap<String, String> b = a.getCoordenadas();
+//		}
 }

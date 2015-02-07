@@ -12,14 +12,18 @@ public class ClienteWsFactibilidad {
 		try {
 			WsFactibilidadStub cliente = new WsFactibilidadStub(url);
 			SetCoordenadas reqSetCoord = new SetCoordenadas();
-			reqSetCoord.setPosX("1");
-			reqSetCoord.setPosY("20");
+			reqSetCoord.setPosX("7");
+			reqSetCoord.setPosY("32");
 			SetCoordenadasResponse respSetCoord = cliente.setCoordenadas(reqSetCoord);
-			System.out.println("Response set: " + respSetCoord.get_return());
-			
+			System.out.println("Response set: " + respSetCoord.get_return());			
 			
 			GetCoordenadasResponse respGetCoord = cliente.getCoordenadas();
-			System.out.println("Response get: " + respGetCoord.get_return());
+			String result = respGetCoord.get_return();
+			String [] listCoord = result.split(",");
+
+			System.out.println("Posicion X: " + listCoord[0]);
+			System.out.println("Posicion Y: " + listCoord[1]);
+					
 			
 			
 		} catch (RemoteException e) {

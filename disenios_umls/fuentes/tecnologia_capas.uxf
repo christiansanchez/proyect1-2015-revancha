@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>600</x>
-      <y>140</y>
+      <y>130</y>
       <w>100</w>
       <h>180</h>
     </coordinates>
@@ -22,7 +22,7 @@ Logica
     <id>UMLClass</id>
     <coordinates>
       <x>500</x>
-      <y>140</y>
+      <y>130</y>
       <w>60</w>
       <h>190</h>
     </coordinates>
@@ -41,7 +41,7 @@ a</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>290</x>
-      <y>140</y>
+      <y>130</y>
       <w>120</w>
       <h>190</h>
     </coordinates>
@@ -61,19 +61,19 @@ Phaser)</panel_attributes>
     <coordinates>
       <x>340</x>
       <y>310</y>
-      <w>330</w>
-      <h>180</h>
+      <w>210</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 
 WebSocket</panel_attributes>
-    <additional_attributes>10.0;20.0;10.0;140.0;310.0;140.0;310.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;190.0;50.0;190.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
       <x>260</x>
-      <y>70</y>
+      <y>60</y>
       <w>640</w>
       <h>350</h>
     </coordinates>
@@ -84,7 +84,7 @@ WebSocket</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>760</x>
-      <y>140</y>
+      <y>130</y>
       <w>100</w>
       <h>180</h>
     </coordinates>
@@ -101,7 +101,7 @@ Persistencia
     <id>UMLDeployment</id>
     <coordinates>
       <x>90</x>
-      <y>270</y>
+      <y>260</y>
       <w>120</w>
       <h>100</h>
     </coordinates>
@@ -114,7 +114,7 @@ Tablet</panel_attributes>
     <id>UMLDeployment</id>
     <coordinates>
       <x>90</x>
-      <y>110</y>
+      <y>100</y>
       <w>120</w>
       <h>100</h>
     </coordinates>
@@ -127,7 +127,7 @@ Web</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>200</x>
-      <y>140</y>
+      <y>130</y>
       <w>110</w>
       <h>80</h>
     </coordinates>
@@ -138,7 +138,7 @@ Web</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>200</x>
-      <y>270</y>
+      <y>260</y>
       <w>110</w>
       <h>70</h>
     </coordinates>
@@ -149,21 +149,21 @@ Web</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>350</x>
-      <y>20</y>
-      <w>320</w>
-      <h>140</h>
+      <y>70</y>
+      <w>200</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 
 WebSocket
 </panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;20.0;300.0;20.0;300.0;120.0</additional_attributes>
+    <additional_attributes>10.0;60.0;10.0;20.0;180.0;20.0;180.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>190</y>
+      <y>180</y>
       <w>90</w>
       <h>50</h>
     </coordinates>
@@ -176,7 +176,7 @@ WebSocket
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>170</y>
+      <y>160</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -188,7 +188,7 @@ WS(Axis2)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>250</y>
+      <y>240</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -200,7 +200,7 @@ WS(Axis2)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>550</x>
-      <y>180</y>
+      <y>170</y>
       <w>70</w>
       <h>30</h>
     </coordinates>
@@ -211,7 +211,7 @@ WS(Axis2)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>550</x>
-      <y>260</y>
+      <y>250</y>
       <w>70</w>
       <h>30</h>
     </coordinates>

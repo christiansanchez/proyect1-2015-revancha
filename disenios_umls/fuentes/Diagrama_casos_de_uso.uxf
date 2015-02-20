@@ -34,7 +34,7 @@ Pirata</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Crear Partida
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -46,7 +46,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>cargar Partida
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -91,7 +91,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Mover Barco Carguero
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -103,7 +103,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Abandonar Partida
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -115,7 +115,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Guardar Partida
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -127,7 +127,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Arribar Punto Llegada
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -139,7 +139,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Unirse Partida
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -151,7 +151,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Disparar Lancha Pirata
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -163,7 +163,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Disparar Barco Carguero
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -175,7 +175,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Mover Lancha Pirata
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -187,7 +187,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Seleccionar Lancha Pirata
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -199,80 +199,8 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Abordar Barco Pirata
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>580</x>
-      <y>110</y>
-      <w>120</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Disparar
-bg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>580</x>
-      <y>310</y>
-      <w>120</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Mover
-bg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>440</x>
-      <y>90</y>
-      <w>160</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;140.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>480</x>
-      <y>130</y>
-      <w>150</w>
-      <h>190</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;170.0;120.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>480</x>
-      <y>160</y>
-      <w>140</w>
-      <h>180</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;110.0;160.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>440</x>
-      <y>330</y>
-      <w>170</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;50.0;150.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -404,7 +332,7 @@ bg=blue</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>Iniciar Partida
-bg=blue</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

@@ -28,7 +28,7 @@ Pirata</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>220</x>
+      <x>230</x>
       <y>20</y>
       <w>120</w>
       <h>40</h>
@@ -54,11 +54,11 @@ bg=white</panel_attributes>
     <coordinates>
       <x>90</x>
       <y>30</y>
-      <w>150</w>
+      <w>160</w>
       <h>70</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;50.0;130.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;140.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>

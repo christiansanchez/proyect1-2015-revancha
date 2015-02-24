@@ -4,191 +4,84 @@
   <element>
     <type>com.baselet.element.old.element.EER_Entity</type>
     <coordinates>
-      <x>530</x>
+      <x>460</x>
       <y>20</y>
       <w>110</w>
-      <h>180</h>
+      <h>140</h>
     </coordinates>
-    <panel_attributes>Partida
+    <panel_attributes>Figuras_partidas
 --
-_idPartida_
-nombrePartida
-jugador1
-jugador2
-pantalla
-estado
+_id_
+idpartida
+idfigura
+posicionX
+posicionY
+impactos
+mangueras
 bg=default</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.EER_Entity</type>
     <coordinates>
-      <x>60</x>
+      <x>20</x>
       <y>20</y>
-      <w>170</w>
-      <h>190</h>
+      <w>160</w>
+      <h>120</h>
     </coordinates>
-    <panel_attributes>Jugador
+    <panel_attributes>Partida
 --
-_idRol_
-estaJugando
-posicionX
-posicionY
-rangoVisibilidad
-resistencia
-velocidad
-imagen
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.EER_Entity</type>
-    <coordinates>
-      <x>480</x>
-      <y>340</y>
-      <w>130</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>Mapa
---
-ancho
-largo
-matrizMapa</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.EER_Entity</type>
-    <coordinates>
-      <x>860</x>
-      <y>330</y>
-      <w>100</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>Objeto
---
-
-imagen
-posicionX
-posicionY
-</panel_attributes>
+_idPartida_
+nombre
+tipo_mapa
+estado</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>200</x>
+      <x>150</x>
       <y>10</y>
-      <w>170</w>
+      <w>130</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=2
+m1=1
 
 </panel_attributes>
-    <additional_attributes>30;30;150;30</additional_attributes>
+    <additional_attributes>30;30;110;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.EER_Rel_Diamond</type>
     <coordinates>
-      <x>350</x>
+      <x>260</x>
       <y>10</y>
       <w>100</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>juega
+    <panel_attributes>contiene
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>420</x>
+      <x>330</x>
       <y>10</y>
-      <w>130</w>
+      <w>150</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=1
+m1=*
 
 </panel_attributes>
-    <additional_attributes>110;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.EER_Rel_Diamond</type>
-    <coordinates>
-      <x>710</x>
-      <y>10</y>
-      <w>100</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>selecciona</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>610</x>
-      <y>0</y>
-      <w>120</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-
-
-</panel_attributes>
-    <additional_attributes>30;30;100;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>730</x>
-      <y>30</y>
-      <w>50</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1..2
-
-
-</panel_attributes>
-    <additional_attributes>30;70;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>750</x>
-      <y>320</y>
-      <w>130</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1..n
-
-
-</panel_attributes>
-    <additional_attributes>110;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>580</x>
-      <y>320</y>
-      <w>140</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-
-
-</panel_attributes>
-    <additional_attributes>30;30;120;30</additional_attributes>
+    <additional_attributes>130;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.EER_Entity</type>
     <coordinates>
-      <x>0</x>
-      <y>310</y>
+      <x>30</x>
+      <y>510</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -205,8 +98,8 @@ rangoVisibilidad
   <element>
     <type>com.baselet.element.old.element.EER_Entity</type>
     <coordinates>
-      <x>170</x>
-      <y>310</y>
+      <x>150</x>
+      <y>510</y>
       <w>110</w>
       <h>30</h>
     </coordinates>
@@ -220,8 +113,8 @@ rangoVisibilidad
   <element>
     <type>com.baselet.element.old.element.EER_Entity</type>
     <coordinates>
-      <x>840</x>
-      <y>530</y>
+      <x>400</x>
+      <y>510</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -231,8 +124,8 @@ rangoVisibilidad
   <element>
     <type>com.baselet.element.old.element.EER_Entity</type>
     <coordinates>
-      <x>980</x>
-      <y>530</y>
+      <x>520</x>
+      <y>510</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -243,58 +136,33 @@ rangoVisibilidad
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>30</x>
-      <y>240</y>
-      <w>210</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=-
-
-</panel_attributes>
-    <additional_attributes>30;70;30;30;190;30;190;70;190;30;190;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>700</x>
-      <y>450</y>
-      <w>350</w>
+      <x>300</x>
+      <y>430</y>
+      <w>290</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=-
 
 </panel_attributes>
-    <additional_attributes>30;80;30;30;190;30;190;80;190;30;330;30;330;80;330;30;330;30</additional_attributes>
+    <additional_attributes>30;80;30;30;150;30;150;80;150;30;270;30;270;80;270;30;270;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>120</x>
-      <y>180</y>
+      <x>300</x>
+      <y>320</y>
       <w>50</w>
-      <h>110</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-
 bg=black</panel_attributes>
-    <additional_attributes>30;30;30;90</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>860</x>
-      <y>410</y>
-      <w>50</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
-bg=black</panel_attributes>
-    <additional_attributes>30;30;30;70</additional_attributes>
+    <additional_attributes>30;30;30;140</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.EER_Entity</type>
     <coordinates>
-      <x>680</x>
-      <y>530</y>
+      <x>280</x>
+      <y>510</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -303,79 +171,30 @@ bg=black</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.baselet.element.old.element.EER_Rel_Diamond</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>690</x>
-      <y>320</y>
-      <w>100</w>
-      <h>50</h>
+      <x>40</x>
+      <y>430</y>
+      <w>310</w>
+      <h>100</h>
     </coordinates>
-    <panel_attributes>tiene
+    <panel_attributes>lt=-
+
 </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>450</x>
-      <y>290</y>
-      <w>630</w>
-      <h>170</h>
-    </coordinates>
-    <panel_attributes>
-</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>30;80;30;30;150;30;150;80;150;30;290;30;290;70;290;30;290;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.EER_Entity</type>
     <coordinates>
-      <x>710</x>
-      <y>100</y>
-      <w>100</w>
-      <h>30</h>
+      <x>240</x>
+      <y>260</y>
+      <w>160</w>
+      <h>120</h>
     </coordinates>
-    <panel_attributes>Pantalla</panel_attributes>
+    <panel_attributes>Figuras
+--
+_idfigura_
+nombre</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.EER_Rel_Diamond</type>
-    <coordinates>
-      <x>710</x>
-      <y>180</y>
-      <w>100</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>contiene</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>730</x>
-      <y>100</y>
-      <w>50</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-
-
-</panel_attributes>
-    <additional_attributes>30;30;30;80</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>730</x>
-      <y>200</y>
-      <w>50</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1..n
-
-
-</panel_attributes>
-    <additional_attributes>30;30;30;90</additional_attributes>
   </element>
 </diagram>

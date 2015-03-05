@@ -14,14 +14,14 @@ Figura
 --
 - posicionX : float
 - posicionY: float
-- angulo: float
+- angulo: int
 --
 + setPosicionY(float): void
 + setPosicionX(float): void
-+ setAngulo(float): void
++ setAngulo(int): void
 + getPosicionY(): float
 + getPosicionX(): float
-+ getAngulo(): float</panel_attributes>
++ getAngulo(): int</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -91,18 +91,19 @@ Figura
       <x>1360</x>
       <y>832</y>
       <w>192</w>
-      <h>120</h>
+      <h>152</h>
     </coordinates>
     <panel_attributes>Pirata
 --
-- lanchas : Diccionario(int, Lancha)
+- lanchas: Diccionario(int: Lancha)
 --
 + Pirata()
-+ pirataNuevo(): void		
++ pirataNuevo(): void
 + setLancha(int, Lancha): void
-+ hasLancha(int posicion): boolean	
-+ getLancha(int): Lancha	
-+ impactoLancha(int) void</panel_attributes>
++ hasLancha(int): boolean
++ getLancha(int): Lancha
++ impactoLancha(int): void
++ destruirLancha(int): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -115,20 +116,23 @@ Figura
     </coordinates>
     <panel_attributes>BarcoCarguero
 --
-- barco : Barco
+- barco: Barco
 --
-</panel_attributes>
++ BarcoCarguero(Barco)
++ getBarco(): Barco
++ setBarco(Barco): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>1248</x>
-      <y>664</y>
+      <y>704</y>
       <w>176</w>
-      <h>112</h>
+      <h>72</h>
     </coordinates>
-    <panel_attributes>Rol
+    <panel_attributes>/Abstract/
+Rol
 --
 
 --
@@ -162,15 +166,15 @@ Figura
     <id>Relation</id>
     <coordinates>
       <x>904</x>
-      <y>944</y>
+      <y>976</y>
       <w>512</w>
-      <h>104</h>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 
 </panel_attributes>
-    <additional_attributes>620.0;10.0;620.0;100.0;20.0;100.0;10.0;60.0</additional_attributes>
+    <additional_attributes>620.0;10.0;620.0;60.0;20.0;60.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -205,13 +209,13 @@ m1=1
       <x>1288</x>
       <y>560</y>
       <w>72</w>
-      <h>120</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 
 </panel_attributes>
-    <additional_attributes>10.0;20.0;70.0;20.0;70.0;130.0</additional_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0;70.0;180.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -219,11 +223,11 @@ m1=1
       <x>1336</x>
       <y>632</y>
       <w>24</w>
-      <h>48</h>
+      <h>88</h>
     </coordinates>
     <panel_attributes>1
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>

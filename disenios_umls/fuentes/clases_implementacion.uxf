@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>840</x>
-      <y>912</y>
+      <x>2024</x>
+      <y>880</y>
       <w>168</w>
       <h>176</h>
     </coordinates>
@@ -27,8 +27,8 @@ Figura
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>912</x>
-      <y>1080</y>
+      <x>2096</x>
+      <y>1048</y>
       <w>24</w>
       <h>48</h>
     </coordinates>
@@ -38,8 +38,8 @@ Figura
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>936</x>
-      <y>1136</y>
+      <x>2120</x>
+      <y>1104</y>
       <w>208</w>
       <h>112</h>
     </coordinates>
@@ -58,8 +58,8 @@ Figura
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>832</x>
-      <y>1104</y>
+      <x>2016</x>
+      <y>1072</y>
       <w>192</w>
       <h>48</h>
     </coordinates>
@@ -69,8 +69,8 @@ Figura
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>736</x>
-      <y>1136</y>
+      <x>1920</x>
+      <y>1104</y>
       <w>184</w>
       <h>112</h>
     </coordinates>
@@ -88,8 +88,8 @@ Figura
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1360</x>
-      <y>1088</y>
+      <x>2544</x>
+      <y>1056</y>
       <w>192</w>
       <h>152</h>
     </coordinates>
@@ -109,8 +109,8 @@ Figura
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1160</x>
-      <y>1088</y>
+      <x>2344</x>
+      <y>1056</y>
       <w>176</w>
       <h>112</h>
     </coordinates>
@@ -126,8 +126,8 @@ Figura
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1248</x>
-      <y>960</y>
+      <x>2432</x>
+      <y>928</y>
       <w>176</w>
       <h>72</h>
     </coordinates>
@@ -142,8 +142,8 @@ Rol
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1328</x>
-      <y>1024</y>
+      <x>2512</x>
+      <y>992</y>
       <w>136</w>
       <h>80</h>
     </coordinates>
@@ -153,8 +153,8 @@ Rol
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1216</x>
-      <y>1056</y>
+      <x>2400</x>
+      <y>1024</y>
       <w>136</w>
       <h>48</h>
     </coordinates>
@@ -165,8 +165,8 @@ Rol
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>904</x>
-      <y>1232</y>
+      <x>2088</x>
+      <y>1200</y>
       <w>512</w>
       <h>72</h>
     </coordinates>
@@ -179,8 +179,8 @@ m1=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>904</x>
-      <y>1240</y>
+      <x>2088</x>
+      <y>1208</y>
       <w>32</w>
       <h>56</h>
     </coordinates>
@@ -191,8 +191,8 @@ m1=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1120</x>
-      <y>800</y>
+      <x>2304</x>
+      <y>768</y>
       <w>176</w>
       <h>88</h>
     </coordinates>
@@ -209,8 +209,8 @@ m1=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1288</x>
-      <y>816</y>
+      <x>2472</x>
+      <y>784</y>
       <w>72</w>
       <h>160</h>
     </coordinates>
@@ -223,8 +223,8 @@ m1=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1336</x>
-      <y>888</y>
+      <x>2520</x>
+      <y>856</y>
       <w>24</w>
       <h>88</h>
     </coordinates>
@@ -235,8 +235,8 @@ m1=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>496</x>
-      <y>776</y>
+      <x>1680</x>
+      <y>744</y>
       <w>208</w>
       <h>112</h>
     </coordinates>
@@ -253,8 +253,8 @@ m1=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>768</x>
-      <y>600</y>
+      <x>1952</x>
+      <y>568</y>
       <w>240</w>
       <h>296</h>
     </coordinates>
@@ -286,8 +286,8 @@ m1=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>752</y>
+      <x>2184</x>
+      <y>720</y>
       <w>136</w>
       <h>96</h>
     </coordinates>
@@ -301,8 +301,8 @@ m2=2
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>688</y>
+      <x>1672</x>
+      <y>656</y>
       <w>208</w>
       <h>64</h>
     </coordinates>
@@ -317,8 +317,8 @@ Estado
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>688</x>
-      <y>704</y>
+      <x>1872</x>
+      <y>672</y>
       <w>96</w>
       <h>48</h>
     </coordinates>
@@ -331,8 +331,8 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>272</x>
-      <y>792</y>
+      <x>1456</x>
+      <y>760</y>
       <w>168</w>
       <h>64</h>
     </coordinates>
@@ -347,8 +347,8 @@ TipoMapa
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>792</y>
+      <x>1616</x>
+      <y>760</y>
       <w>80</w>
       <h>40</h>
     </coordinates>
@@ -361,8 +361,8 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>632</x>
-      <y>320</y>
+      <x>1816</x>
+      <y>288</y>
       <w>240</w>
       <h>272</h>
     </coordinates>
@@ -392,8 +392,8 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>392</x>
-      <y>128</y>
+      <x>1584</x>
+      <y>184</y>
       <w>216</w>
       <h>112</h>
     </coordinates>
@@ -411,8 +411,8 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>984</x>
-      <y>1192</y>
+      <x>2168</x>
+      <y>1160</y>
       <w>320</w>
       <h>96</h>
     </coordinates>
@@ -425,8 +425,8 @@ m1=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>984</x>
-      <y>1240</y>
+      <x>2168</x>
+      <y>1208</y>
       <w>32</w>
       <h>40</h>
     </coordinates>
@@ -437,8 +437,8 @@ m1=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>512</y>
+      <x>1408</x>
+      <y>480</y>
       <w>232</w>
       <h>80</h>
     </coordinates>
@@ -454,8 +454,8 @@ IPoolConexiones
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>224</x>
-      <y>632</y>
+      <x>1408</x>
+      <y>600</y>
       <w>232</w>
       <h>128</h>
     </coordinates>
@@ -475,19 +475,19 @@ IPoolConexiones
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>224</x>
-      <y>672</y>
-      <w>32</w>
+      <x>1360</x>
+      <y>624</y>
+      <w>64</w>
       <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;20.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>632</y>
+      <x>1136</x>
+      <y>584</y>
       <w>232</w>
       <h>72</h>
     </coordinates>
@@ -502,8 +502,8 @@ IPoolConexiones
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
-      <y>544</y>
+      <x>1216</x>
+      <y>504</y>
       <w>96</w>
       <h>40</h>
     </coordinates>
@@ -515,72 +515,74 @@ IConexion
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
-      <y>584</y>
-      <w>80</w>
+      <x>1520</x>
+      <y>552</y>
+      <w>24</w>
       <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>80.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>576</y>
+      <x>1256</x>
+      <y>536</y>
       <w>24</w>
-      <h>72</h>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
-      <y>824</y>
-      <w>96</w>
-      <h>56</h>
+      <x>1160</x>
+      <y>760</y>
+      <w>272</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
-FabricaAbstracta
+FabricaAbstracta 
 --
-
+--
++ crearDAOPartidas(): IDAOPartidas
++ crearDAOFigurasPartidas(): IDAOFigurasPartidas
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>128</x>
-      <y>872</y>
+      <x>1312</x>
+      <y>832</y>
       <w>24</w>
-      <h>72</h>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>8</x>
-      <y>928</y>
-      <w>232</w>
-      <h>72</h>
+      <x>1152</x>
+      <y>880</y>
+      <w>272</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>FabricaMySQL
 --
-
 --
-
++ crearDAOPartidas(): IDAOPartidas
++ crearDAOFigurasPartidas(): IDAOFigurasPartidas
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>696</x>
-      <y>776</y>
+      <x>1880</x>
+      <y>744</y>
       <w>88</w>
       <h>64</h>
     </coordinates>
@@ -593,8 +595,8 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>984</x>
-      <y>392</y>
+      <x>2168</x>
+      <y>360</y>
       <w>224</w>
       <h>192</h>
     </coordinates>
@@ -614,8 +616,8 @@ Partidas
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>856</x>
-      <y>248</y>
+      <x>2040</x>
+      <y>216</y>
       <w>160</w>
       <h>160</h>
     </coordinates>
@@ -628,8 +630,8 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1016</x>
-      <y>480</y>
+      <x>2200</x>
+      <y>448</y>
       <w>232</w>
       <h>192</h>
     </coordinates>
@@ -643,8 +645,8 @@ group=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>640</y>
+      <x>2184</x>
+      <y>608</y>
       <w>88</w>
       <h>40</h>
     </coordinates>
@@ -656,8 +658,8 @@ group=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>632</x>
-      <y>120</y>
+      <x>1816</x>
+      <y>88</y>
       <w>232</w>
       <h>160</h>
     </coordinates>
@@ -679,8 +681,8 @@ FachadaSocket
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>352</x>
-      <y>280</y>
+      <x>1568</x>
+      <y>336</y>
       <w>240</w>
       <h>88</h>
     </coordinates>
@@ -697,8 +699,8 @@ FachadaSocket
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>768</x>
-      <y>272</y>
+      <x>1952</x>
+      <y>240</y>
       <w>24</w>
       <h>64</h>
     </coordinates>
@@ -708,8 +710,8 @@ FachadaSocket
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>488</x>
-      <y>232</y>
+      <x>1680</x>
+      <y>288</y>
       <w>24</w>
       <h>64</h>
     </coordinates>
@@ -719,8 +721,8 @@ FachadaSocket
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1040</x>
-      <y>216</y>
+      <x>2224</x>
+      <y>184</y>
       <w>272</w>
       <h>144</h>
     </coordinates>
@@ -741,8 +743,8 @@ soapConnectionFactory: SOAPConnectionFactory
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>960</x>
-      <y>32</y>
+      <x>2144</x>
+      <y>0</y>
       <w>232</w>
       <h>160</h>
     </coordinates>
@@ -763,8 +765,8 @@ soapConnectionFactory: SOAPConnectionFactory
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>856</x>
-      <y>136</y>
+      <x>2040</x>
+      <y>104</y>
       <w>120</w>
       <h>56</h>
     </coordinates>
@@ -777,8 +779,8 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>856</x>
-      <y>208</y>
+      <x>2040</x>
+      <y>176</y>
       <w>200</w>
       <h>96</h>
     </coordinates>
@@ -787,5 +789,247 @@ m1=1
 m2=1
 </panel_attributes>
     <additional_attributes>10.0;10.0;230.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1424</x>
+      <y>272</y>
+      <w>176</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+
+</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;30.0;10.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1424</x>
+      <y>432</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>736</x>
+      <y>704</y>
+      <w>384</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>DAOFigurasPartidas 
+--
+consultas: ConsultaFigurasPartidas
+--
++ DAOFigurasPartidas()
++ agregarFigurasPartidas(IConexion, List&lt;VOFigurasPartidas&gt;): void
++ listarFigurasPartidasIdPartida(IConexion, int): List&lt;VOFigurasPartidas&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>736</x>
+      <y>584</y>
+      <w>376</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+IDAOFigurasPartidas 
+--
+--
++ agregarFigurasPartidas(IConexion, List&lt;VOFigurasPartidas&gt;): void
++ listarFigurasPartidasIdPartida(IConexion, int): List&lt;VOFigurasPartidas&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>912</x>
+      <y>656</y>
+      <w>24</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1008</x>
+      <y>784</y>
+      <w>160</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0;180.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1056</x>
+      <y>232</y>
+      <w>544</w>
+      <h>368</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+
+</panel_attributes>
+    <additional_attributes>660.0;20.0;10.0;20.0;10.0;440.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1056</x>
+      <y>536</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>480</y>
+      <w>376</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+IDAOPartidas 
+--
+--
++ listarPartidasCreadas(IConexion): List&lt;VOPartida&gt;
++ find(IConexion, String): VOPartida
++ updatePartidaCredaToEnCurso(IConexion, String, int): void
++ hasPartidaEnCurso(IConexion, String) : boolean
++ updatePartidaEnCursoToCreada(IConexion, String): void
++ updatePartidaEnCursoToTerminada(IConexion, String) : void
++ eliminarPartida(IConexion, int): void
++ findPartidaEnCurso(IConexion, String): VOPartida
++ agregarPartidaEnCurso(IConexion, VOPartida): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>328</x>
+      <y>704</y>
+      <w>384</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>DAOPartidas 
+--
+- consultas: ConsultaPartidas
+--
++ DAOPartidas()
++ listarPartidasCreadas(IConexion): List&lt;VOPartida&gt;
++ find(IConexion, String): VOPartida
++ updatePartidaCredaToEnCurso(IConexion, String, int): void
++ hasPartidaEnCurso(IConexion, String) : boolean
++ updatePartidaEnCursoToCreada(IConexion, String): void
++ updatePartidaEnCursoToTerminada(IConexion, String) : void
++ eliminarPartida(IConexion, int): void
++ findPartidaEnCurso(IConexion, String): VOPartida
++ agregarPartidaEnCurso(IConexion, VOPartida): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>608</x>
+      <y>656</y>
+      <w>24</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>616</x>
+      <y>872</y>
+      <w>552</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;670.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>688</x>
+      <y>432</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>688</x>
+      <y>200</y>
+      <w>912</w>
+      <h>296</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+
+</panel_attributes>
+    <additional_attributes>1120.0;20.0;10.0;20.0;10.0;350.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>304</x>
+      <y>984</y>
+      <w>272</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>ConsultaPartidas
+--
+--
++ findPartidasCreadas(): String
++ findPartidasNombre(): String
++ updatePartidaCreadaToEnCurso(): String
++ existePartidaEnCurso(): String
++ updatePartidaEnCursoToCreada(): String
++ updatePartidaEnCursoToTerminada(): String
++ findPartidasEnCurso(): String
++ agregarPartidaEnCurso(): String
++ eliminarPartidaId(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>872</y>
+      <w>64</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;140.0</additional_attributes>
   </element>
 </diagram>

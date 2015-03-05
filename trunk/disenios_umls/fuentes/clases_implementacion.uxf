@@ -194,12 +194,15 @@ m1=1
       <x>1120</x>
       <y>544</y>
       <w>176</w>
-      <h>64</h>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Jugador
 --
-- tipo: Rol
+- rol: Rol
 --
++ Jugador(Rol)
++ getRol(): Rol
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -240,9 +243,6 @@ m1=1
     <panel_attributes>Mapa
 --
 - tipoMapa: TipoMapa
-- puntLlegada: PuntoLlegadaBarco
-- islas: Isla[]
-- costas: Costa[]
 --
 + Mapa(TipoMapa)
 + getTipoMapa(): TipoMapa
@@ -255,19 +255,33 @@ m1=1
     <id>UMLClass</id>
     <coordinates>
       <x>840</x>
-      <y>416</y>
+      <y>344</y>
       <w>176</w>
-      <h>136</h>
+      <h>296</h>
     </coordinates>
     <panel_attributes>Partida
 --
-- jugador1: Jugador
-- jugador2: Jugador
 - nombre: String
+- barcoCarguero: Jugador
+- lanchaPirata: Jugador
 - mapa: Mapa
-- estado: Estado
+- estadoPartida: EstadoPartida
 --
-</panel_attributes>
++ Partida(String, Jugador, Jugador, Mapa)  {	
++ getNombre(): String
++ setNombre(String): void
++ getBarcoCarguero(): Jugador
++ setBarcoCarguero(Jugador): void
++ getLanchaPirata(): Jugador
++ setLanchaPirata(Jugador): void
++ getMapa(): Mapa
++ setMapa(Mapa): void
++ getEstadoPartida(): EstadoPartida
++ setEstadoPartida(EstadoPartida): void
++ hasCreada(): boolean
++ getRolDisponible(): String
++ getTipoMapa(): String
++ getEstadoPartidaStr(): String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

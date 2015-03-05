@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>840</x>
-      <y>656</y>
+      <y>792</y>
       <w>168</w>
       <h>176</h>
     </coordinates>
@@ -28,7 +28,7 @@ Figura
     <id>Relation</id>
     <coordinates>
       <x>912</x>
-      <y>824</y>
+      <y>960</y>
       <w>24</w>
       <h>48</h>
     </coordinates>
@@ -39,7 +39,7 @@ Figura
     <id>UMLClass</id>
     <coordinates>
       <x>936</x>
-      <y>880</y>
+      <y>1016</y>
       <w>208</w>
       <h>112</h>
     </coordinates>
@@ -59,7 +59,7 @@ Figura
     <id>Relation</id>
     <coordinates>
       <x>832</x>
-      <y>848</y>
+      <y>984</y>
       <w>192</w>
       <h>48</h>
     </coordinates>
@@ -70,7 +70,7 @@ Figura
     <id>UMLClass</id>
     <coordinates>
       <x>736</x>
-      <y>880</y>
+      <y>1016</y>
       <w>184</w>
       <h>112</h>
     </coordinates>
@@ -89,7 +89,7 @@ Figura
     <id>UMLClass</id>
     <coordinates>
       <x>1360</x>
-      <y>832</y>
+      <y>968</y>
       <w>192</w>
       <h>152</h>
     </coordinates>
@@ -110,7 +110,7 @@ Figura
     <id>UMLClass</id>
     <coordinates>
       <x>1160</x>
-      <y>832</y>
+      <y>968</y>
       <w>176</w>
       <h>112</h>
     </coordinates>
@@ -127,7 +127,7 @@ Figura
     <id>UMLClass</id>
     <coordinates>
       <x>1248</x>
-      <y>704</y>
+      <y>840</y>
       <w>176</w>
       <h>72</h>
     </coordinates>
@@ -143,7 +143,7 @@ Rol
     <id>Relation</id>
     <coordinates>
       <x>1328</x>
-      <y>768</y>
+      <y>904</y>
       <w>136</w>
       <h>80</h>
     </coordinates>
@@ -154,7 +154,7 @@ Rol
     <id>Relation</id>
     <coordinates>
       <x>1216</x>
-      <y>800</y>
+      <y>936</y>
       <w>136</w>
       <h>48</h>
     </coordinates>
@@ -166,7 +166,7 @@ Rol
     <id>Relation</id>
     <coordinates>
       <x>904</x>
-      <y>976</y>
+      <y>1112</y>
       <w>512</w>
       <h>72</h>
     </coordinates>
@@ -180,7 +180,7 @@ m1=1
     <id>Relation</id>
     <coordinates>
       <x>904</x>
-      <y>984</y>
+      <y>1120</y>
       <w>32</w>
       <h>56</h>
     </coordinates>
@@ -192,7 +192,7 @@ m1=1
     <id>UMLClass</id>
     <coordinates>
       <x>1120</x>
-      <y>544</y>
+      <y>680</y>
       <w>176</w>
       <h>88</h>
     </coordinates>
@@ -210,7 +210,7 @@ m1=1
     <id>Relation</id>
     <coordinates>
       <x>1288</x>
-      <y>560</y>
+      <y>696</y>
       <w>72</w>
       <h>160</h>
     </coordinates>
@@ -224,7 +224,7 @@ m1=1
     <id>Relation</id>
     <coordinates>
       <x>1336</x>
-      <y>632</y>
+      <y>768</y>
       <w>24</w>
       <h>88</h>
     </coordinates>
@@ -235,28 +235,27 @@ m1=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>544</x>
-      <y>520</y>
+      <x>496</x>
+      <y>656</y>
       <w>208</w>
-      <h>160</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Mapa
 --
 - tipoMapa: TipoMapa
 --
 + Mapa(TipoMapa)
++ void setTipoMapa(TipoMapa): 
 + getTipoMapa(): TipoMapa
-+ setTipoMapa(TipoMapa): void
-+ setIsla(Isla): void
-</panel_attributes>
++ getTipoMapaStr(): String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>840</x>
-      <y>344</y>
-      <w>176</w>
+      <x>768</x>
+      <y>480</y>
+      <w>240</w>
       <h>296</h>
     </coordinates>
     <panel_attributes>Partida
@@ -267,7 +266,7 @@ m1=1
 - mapa: Mapa
 - estadoPartida: EstadoPartida
 --
-+ Partida(String, Jugador, Jugador, Mapa)  {	
++ Partida(String, Jugador, Jugador, Mapa)
 + getNombre(): String
 + setNombre(String): void
 + getBarcoCarguero(): Jugador
@@ -287,9 +286,9 @@ m1=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1008</x>
-      <y>496</y>
-      <w>128</w>
+      <x>1000</x>
+      <y>632</y>
+      <w>136</w>
       <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
@@ -297,13 +296,13 @@ m1=1
 m2=2
 
 </panel_attributes>
-    <additional_attributes>10.0;10.0;140.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;150.0;100.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>536</x>
-      <y>432</y>
+      <x>488</x>
+      <y>568</y>
       <w>208</w>
       <h>64</h>
     </coordinates>
@@ -318,22 +317,22 @@ Estado
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>736</x>
-      <y>448</y>
-      <w>120</w>
+      <x>688</x>
+      <y>584</y>
+      <w>96</w>
       <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=1
 </panel_attributes>
-    <additional_attributes>130.0;30.0;10.0;20.0</additional_attributes>
+    <additional_attributes>100.0;30.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>312</x>
-      <y>536</y>
+      <x>272</x>
+      <y>672</y>
       <w>168</w>
       <h>64</h>
     </coordinates>
@@ -348,37 +347,53 @@ TipoMapa
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>472</x>
-      <y>536</y>
-      <w>88</w>
+      <x>432</x>
+      <y>672</y>
+      <w>80</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=1
 </panel_attributes>
-    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>696</x>
-      <y>232</y>
-      <w>176</w>
-      <h>48</h>
+      <x>632</x>
+      <y>200</y>
+      <w>240</w>
+      <h>272</h>
     </coordinates>
-    <panel_attributes>FachadaWSocket
+    <panel_attributes>+ FachadaWSocket
 --
-
+- clientes: Coleccion(Session)
 --
-</panel_attributes>
++ FachadaWSocket():
+- sendMessage(Session, String, String): void
+- estadoPartida(String): String
+- setCargarPartida(String): String
+- getCargarPartida(): String
+- guardarPartida(String): boolean
+- getUnirsePartida(): String
+- hasPartida(String): boolean
+- setPartida(String): boolean
+- abandonarPartida(String): boolean
+- lanchaDestruida(String): boolean
+- impactoBarco(String): boolean
+- impactoLancha(String, Session): boolean
+- unirsePartida(String): String
++ onOpen (Session): void
++ onClose (Session): void
++ onError(Throwable): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>432</x>
-      <y>0</y>
+      <y>136</y>
       <w>176</w>
       <h>48</h>
     </coordinates>
@@ -392,36 +407,8 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1008</x>
-      <y>360</y>
-      <w>120</w>
-      <h>144</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
-m1=1
-
-
-group=1</panel_attributes>
-    <additional_attributes>130.0;10.0;60.0;10.0;60.0;160.0;10.0;160.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1008</x>
-      <y>472</y>
-      <w>56</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>1
-
-group=1</panel_attributes>
-    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
       <x>984</x>
-      <y>936</y>
+      <y>1072</y>
       <w>320</w>
       <h>96</h>
     </coordinates>
@@ -435,7 +422,7 @@ m1=1
     <id>Relation</id>
     <coordinates>
       <x>984</x>
-      <y>984</y>
+      <y>1120</y>
       <w>32</w>
       <h>40</h>
     </coordinates>
@@ -447,7 +434,7 @@ m1=1
     <id>UMLClass</id>
     <coordinates>
       <x>280</x>
-      <y>256</y>
+      <y>392</y>
       <w>232</w>
       <h>80</h>
     </coordinates>
@@ -463,8 +450,8 @@ IPoolConexiones
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>376</y>
+      <x>224</x>
+      <y>512</y>
       <w>232</w>
       <h>128</h>
     </coordinates>
@@ -485,18 +472,18 @@ IPoolConexiones
     <id>Relation</id>
     <coordinates>
       <x>224</x>
-      <y>416</y>
-      <w>72</w>
+      <y>552</y>
+      <w>32</w>
       <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;20.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>376</y>
+      <y>512</y>
       <w>232</w>
       <h>72</h>
     </coordinates>
@@ -512,7 +499,7 @@ IPoolConexiones
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>288</y>
+      <y>424</y>
       <w>96</w>
       <h>40</h>
     </coordinates>
@@ -524,19 +511,19 @@ IConexion
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>392</x>
-      <y>328</y>
-      <w>24</w>
+      <x>336</x>
+      <y>464</y>
+      <w>80</w>
       <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>80.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>120</x>
-      <y>320</y>
+      <y>456</y>
       <w>24</w>
       <h>72</h>
     </coordinates>
@@ -547,7 +534,7 @@ IConexion
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>568</y>
+      <y>704</y>
       <w>96</w>
       <h>56</h>
     </coordinates>
@@ -562,7 +549,7 @@ FabricaAbstracta
     <id>Relation</id>
     <coordinates>
       <x>128</x>
-      <y>616</y>
+      <y>752</y>
       <w>24</w>
       <h>72</h>
     </coordinates>
@@ -573,7 +560,7 @@ FabricaAbstracta
     <id>UMLClass</id>
     <coordinates>
       <x>8</x>
-      <y>672</y>
+      <y>808</y>
       <w>232</w>
       <h>72</h>
     </coordinates>
@@ -588,112 +575,100 @@ FabricaAbstracta
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>744</x>
-      <y>520</y>
-      <w>112</w>
+      <x>696</x>
+      <y>656</y>
+      <w>88</w>
       <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=1
 </panel_attributes>
-    <additional_attributes>120.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>90.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1112</x>
-      <y>312</y>
-      <w>176</w>
-      <h>136</h>
-    </coordinates>
-    <panel_attributes>Partida
---
-- jugador1: Jugador
-- jugador2: Jugador
-- nombre: String
-- mapa: Mapa
-- estado: Estado
---
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1008</x>
-      <y>152</y>
-      <w>176</w>
-      <h>128</h>
+      <x>984</x>
+      <y>272</y>
+      <w>224</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Diccionario&gt;&gt;
 Partidas
 --
-- partidas: Partida
+- partidas: Diccionario(String, Partida) 
 --
 + Partidas()
 + member(String): boolean
 + insert(Partida): void
 + find(String): Partida
-+ delete(String): void</panel_attributes>
++ delete(String): void
++ getPartidasDisponibles() String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>896</x>
-      <y>160</y>
-      <w>128</w>
-      <h>72</h>
+      <x>856</x>
+      <y>128</y>
+      <w>160</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=1
 </panel_attributes>
-    <additional_attributes>10.0;10.0;140.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;180.0;180.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1176</x>
-      <y>160</y>
-      <w>104</w>
-      <h>152</h>
+      <x>1016</x>
+      <y>360</y>
+      <w>232</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 
 
-group=2</panel_attributes>
-    <additional_attributes>10.0;20.0;110.0;20.0;110.0;170.0</additional_attributes>
+group=1</panel_attributes>
+    <additional_attributes>240.0;10.0;270.0;10.0;270.0;220.0;10.0;220.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1256</x>
-      <y>272</y>
-      <w>40</w>
-      <h>56</h>
+      <x>1000</x>
+      <y>520</y>
+      <w>88</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>0...*
 
-group=2</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+group=1</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>688</x>
+      <x>632</x>
       <y>0</y>
-      <w>176</w>
-      <h>72</h>
+      <w>232</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Fachada&gt;&gt;
 &lt;&lt;Singleton&gt;&gt;
 FachadaSocket
 --
-
+- instancia: FachadaSocket
+- monitorJuego: MonitorLecturaEscritura
+- partidas: Partidas
+- urlWebService: String
+- webservice: SOAPManager
 --
+- FachadaSocket()
++ getInstancia(): FachadaSocket
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -701,7 +676,7 @@ FachadaSocket
     <id>UMLClass</id>
     <coordinates>
       <x>408</x>
-      <y>112</y>
+      <y>248</y>
       <w>176</w>
       <h>48</h>
     </coordinates>
@@ -716,11 +691,11 @@ FachadaSocket
     <id>Relation</id>
     <coordinates>
       <x>768</x>
-      <y>64</y>
+      <y>152</y>
       <w>24</w>
-      <h>184</h>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
 </diagram>

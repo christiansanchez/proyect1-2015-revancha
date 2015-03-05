@@ -392,16 +392,20 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>432</x>
-      <y>136</y>
-      <w>176</w>
-      <h>48</h>
+      <x>392</x>
+      <y>8</y>
+      <w>216</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>FachadaService
 --
-
+- instancia: FachadaService
+- ipool: IPoolConexiones
+- iPartidas: IDAOPartidas
+- iFigurasPartidas: IDAOFigurasPartidas
 --
-</panel_attributes>
+- FachadaService()
++ getInstancia(): FachadaService</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -675,16 +679,19 @@ FachadaSocket
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>408</x>
-      <y>248</y>
-      <w>176</w>
-      <h>48</h>
+      <x>352</x>
+      <y>160</y>
+      <w>240</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>FachadaWService
 --
-
 --
-</panel_attributes>
++ FachadaWService()
++ setGuardarPartida(String dataJuego): String
++ getCargarPartida(): String
++ setCargarPartida(String dataJuego): String
+	</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -692,6 +699,17 @@ FachadaSocket
     <coordinates>
       <x>768</x>
       <y>152</y>
+      <w>24</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>488</x>
+      <y>112</y>
       <w>24</w>
       <h>64</h>
     </coordinates>
